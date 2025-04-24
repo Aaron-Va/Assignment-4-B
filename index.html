@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 B</title>
+    <style>
+        /* Style for the link at the upper-left corner */
+        .top-left-link {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* General styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/white-diamond.png'); /* Add a subtle background image */
+            background-color: #f5f5f5; /* Fallback background color */
+        }
+
+        header {
+            text-align: center;
+            margin: 40px 0 20px; /* Add top margin to avoid overlap with the link */
+            border: 2px solid #4CAF50; /* Add border to the header */
+            padding: 10px;
+            border-radius: 10px; /* Rounded corners */
+            background-color: #e8f5e9; /* Light green background */
+        }
+
+        .text-area {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f0f8ff; /* Light blue background */
+            border: 1px solid #ccc;
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        figure {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        figcaption {
+            font-size: 0.9rem;
+            color: gray;
+        }
+
+        .progress-container {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #fff3e0; /* Light orange background */
+            border: 1px solid #ffcc80; /* Orange border */
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        /* Style for paragraph elements */
+        p {
+            background-color: #e3f2fd; /* Light blue background */
+            padding: 10px;
+            border: 1px solid #90caf9; /* Blue border */
+            border-radius: 8px; /* Rounded corners */
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://aaron-va.github.io/index.html/" class="top-left-link">index.html page</a>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <div class="text-area">
+        <p>Here are some pictures</p>
+    </div>
+    <div class="image-container">
+        <!-- First image -->
+        <img src="https://img.freepik.com/free-photo/adorable-cat-lifestyle_23-2151593321.jpg?t=st=1745512589~exp=1745516189~hmac=ff5a795272b8b6b4189c398acd738d6d991dac76cbc5a719ca093a30bee3afed&w=740" alt="Description of the first image" width="300">
+    </div>
+    <figure>
+        <!-- Second image with figure -->
+        <img src="https://img.freepik.com/free-photo/adorable-cat-lifestyle_23-2151593399.jpg?t=st=1745513071~exp=1745516671~hmac=727319264e48900a95e06b1e84797627b98fb8cdcab535d1142a4be758d9479c&w=1060" alt="Description of the second image" width="300">
+        <figcaption>This is an AI generated cat.</figcaption>
+    </figure>
+    <div class="progress-container">
+        <!-- Progress element -->
+        <label for="progress">Progress in being able to pet a cat's belly:</label>
+        <progress id="progress" value="15" max="100"></progress>
+    </div>
+</body>
+</html>
